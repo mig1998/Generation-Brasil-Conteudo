@@ -1,0 +1,5 @@
+#img-bg {
+    background: url("../../assets/tecladoEntrar.jpg") no-repeat center;
+    min-height: 51.4em;
+    background-size: cover;
+}

@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Minha Pagina</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <meta name="description" content="projeto Generation">
+
+    <meta name="author" content="Miguel Araujo">
+
+    <link rel="stylesheet" type="text/css" href="css/configuration.css">
+
+</head>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <BR>
+        <div id="btn" class="white" onclick="darkMode()">
+            <p>WhiteMode</p>
+        </div>
+
+        <article class="form">
+            <h1>Entre em Contato</h1>
+            <br>
+            <form action="" onkeydown="validationText()">
+
+                <label for="nome">Nome:</label>
+                <input type="text" placeholder="digite seu nome:" "nome" id="nome">
+                <p id="txtNome"></p>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="digite seu email:" name="email" id="email">
+                <p id="txtEmail"></p>
+
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" id="assunto" placeholder="digite o assunto" rows="5" cols="60"></textarea>
+                <p id="txtAssunto"></p>
+
+                <input onclick="enviar()" type="submit" value="enviar">
+            </form>
+
+        </article>
+    </main>
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>

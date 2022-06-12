@@ -1,0 +1,137 @@
+/* configuracao geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+article p,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+body {
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    margin: 1.5em;
+}
+
+nav ul li {
+    margin: auto;
+    padding-left: 15%;
+    display: inline;
+    border-radius: 10px;
+}
+
+li a {
+    color: cyan;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 1em 10%;
+}
+
+a:hover {
+    background-color: crimson;
+}
+
+img {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.container img,
+.container iframe {
+    margin: 10px;
+}
+
+.centralizar {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+}
+
+.white {
+    color: black;
+    background-color: white;
+    width: 6em;
+    height: 3em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.black {
+    width: 6em;
+    height: 3em;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+
+/* contato */
+
+.form {
+    margin: 10px auto;
+    width: 300px;
+    height: auto;
+    background-color: rgb(160, 126, 223);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form p {
+    color: yellow;
+}
+
+label {
+    color: cyan;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main h1 {
+    color: cyan;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    margin: 15px;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    margin: 10px;
+    width: 50%;
+    height: 3em;
+    border-radius: 20px;
+    background-color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
